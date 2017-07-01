@@ -9,13 +9,13 @@ $ cargo run <file>
 ```
 where file is a prolog file.
 
-A fact entered by ending the clause with a dot:
+A fact is entered by ending the clause with a dot:
 ```
 ?- lt(zero, succ(zero)).
 ok.
 ```
 
-A query is spcefied with a question mark:
+A query is specified with a question mark:
 ```
 ?- member(2, cons(1, cons(2, cons(3, nil))))?
 yes.
